@@ -154,6 +154,7 @@ The litigation runner loads the **full MORNINGSTAR framework** (procedures, pers
 | [`core/mfaf.md`](core/mfaf.md) | Feasibility Assessment Framework (F0–F5, risk vectors) | Classifying matters, risk assessment |
 | [`core/sme-framework.md`](core/sme-framework.md) | Subject Matter Expert framework | Involving domain experts |
 | [`core/state-schema.md`](core/state-schema.md) | State validation rules | Validating session state |
+| [`core/case-format.md`](core/case-format.md) | Case naming & numbering — `YYYY-CATC-NNN-DDD`, `YYYY-MM-DD-[slug].md`, `YYYYMMDD_HHMMSS_special_interest_[subject].md` | Transcript headers, filenames, precedent indexing |
 | [`core/error-recovery.md`](core/error-recovery.md) | Recovery protocols | When things go wrong |
 | [`core/inter-agent-protocol.md`](core/inter-agent-protocol.md) | Inter-agent handoff rules | MORNINGSTAR ↔ LIL_JEFF |
 | [`courtroom/domains/README.md`](courtroom/domains/README.md) | Domain expert registry usage | Summoning SMEs, adding domains |

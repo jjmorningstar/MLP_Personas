@@ -39,6 +39,12 @@ Create `~/Library/LaunchAgents/com.morningstar.court-reporter.plist` with `Start
 
 ---
 
+## Transcript & Case Format
+
+Transcript filenames and Case No. format are defined in [core/case-format.md](../core/case-format.md): Standard `YYYY-MM-DD-[matter-slug].md`; Special Interest `YYYYMMDD_HHMMSS_special_interest_[subject].md`; Case No. `YYYY-CATC-NNN-DDD` in header. The reporter checks filename format (Standard, Special Interest); Case No. is extracted by `generate_manifest.py` for display.
+
+---
+
 ## Integration Sources
 
 | Source | Script | Subagent |

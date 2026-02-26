@@ -45,7 +45,7 @@ Ensures `courtroom/portal/transcripts_manifest.json` reflects `courtroom/transcr
 ### 3. Precedents Sync
 
 - Read `courtroom/precedents.md` Master Index
-- For each certified transcript not in index: extract Case No., Date, Matter, Ruling, Vote
+- For each certified transcript not in index: extract Case No. (`YYYY-CATC-NNN-DDD` per `core/case-format.md`), Date, Matter, Ruling, Vote
 - Add new entries to Master Index and category tables
 - Follow precedent entry schema in `courtroom/precedents.md`
 

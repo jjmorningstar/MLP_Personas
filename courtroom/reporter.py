@@ -26,7 +26,7 @@ COURTROOM_TRANSCRIPTS = REPO_ROOT / "courtroom" / "transcripts"
 LITIGATION_TRANSCRIPTS = REPO_ROOT / "litigation" / "transcripts"
 CERTIFICATION_MARKER = "Transcript certified by MORNINGSTAR::SCRIBE"
 
-# Filename patterns
+# Filename patterns — per core/case-format.md
 STANDARD_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}-.+")
 SPECIAL_INTEREST_PATTERN = re.compile(r"^\d{8}_\d{6}_special_interest_.+")
 HANDOFF_PATTERN = re.compile(r"^HANDOFF-", re.I)
